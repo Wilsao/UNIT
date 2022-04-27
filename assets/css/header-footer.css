@@ -1,0 +1,118 @@
+header{
+  height: 114px;
+  border-bottom: solid 1px #E0E0E0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.061);
+}
+header .container{
+  display: flex;
+  padding: 0 40px;
+  align-items: flex-end;
+}
+header nav ul{
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+}
+header nav ul li a{
+  margin: 0 10px;
+  padding: 0 20px;
+  display: block;
+  line-height: 70px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-bottom: solid 6px transparent;
+}
+header nav a:hover{
+  color:#222121;
+  border-bottom: solid 6px #166DB2;
+}
+a.active{
+  border-bottom: solid 6px #166DB2;
+}
+.login{
+  line-height: 100% !important;
+  border: solid 1px #E0E0E0;
+  padding: 18px 22px;
+  margin-bottom: 13px;
+  min-width: 127px;
+}
+.login span{
+  padding-right: 10px;
+}
+.login:hover{
+  border: solid 1px #166DB2;
+}
+.top,.mid,.bottom{
+  display: none;
+}
+footer{
+  min-height: 80px;
+  border-top: solid 1px #E0E0E0;
+  background-color: #ffffff;
+}
+footer .mail{
+  margin-right: 8px;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+@media (max-width: 992px){
+  .mobile-menu{
+    display: block;
+    background-color: #166DB2;
+    height: 57px;
+    width: 120px;
+    position: relative;
+    margin: auto 0;
+  }
+  .top,.mid,.bottom{
+    display: block;
+    position: absolute;
+    left: calc(50% - 25px);
+    height: 4px;
+    width: 50px;
+    background-color: #ffffff;
+  }
+  .top{
+    top: 17px;
+  }
+  .mid{
+    top: 27px;
+  }
+  .bottom{
+    top: 37px;
+  }
+  .mobile-menu nav{
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.061);
+    background-color: #ffffff;
+    width: fit-content;
+    position: absolute;
+    top: 58px;
+    right: 0;
+    min-width: 200px;
+  }
+  .mobile-menu nav ul{
+    padding: 30px;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .mobile-menu nav ul a{
+    padding-right: 0;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+  .mobile-menu:hover nav{
+    border: solid 1px #E0E0E0;
+    height: fit-content;
+    max-height: 600px;
+  }
+}
