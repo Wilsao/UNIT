@@ -56,6 +56,7 @@ footer{
   min-height: 80px;
   border-top: solid 1px #E0E0E0;
   background-color: #ffffff;
+  width: 100%;
 }
 footer .mail{
   margin-right: 8px;

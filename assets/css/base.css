@@ -70,20 +70,38 @@
 }
 input, select{
   height: 65px;
-  padding: 0 20px;
+  padding: 0 0 0 20px;
   font-size: 18px;
   color: #444444;
   border: solid 1px #E0E0E0;
   width: 100%;
 }
+input[type=checkbox]{
+  height: 16px;
+  width: 16px;
+}
+label{
+  color: #868686;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 0;
+  margin-right: 8px;
+}
 .d-block{
   display: block;
+}
+.w-100{
+  width: 100%;
 }
 .mb-3{
   margin-bottom: 24px;
 }
 .text-center{
   text-align: center;
+}
+.text-end{
+  text-align: end;
+  text-align: -webkit-right;
 }
 .justify-content-center{
   justify-content: center;

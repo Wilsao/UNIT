@@ -44,9 +44,50 @@ body{
   min-height: 110px;
   border: solid 1px #E0E0E0;
   border-left: solid 10px #166DB2;
-  padding: 18px;
+  padding: 24px;
+  margin-bottom: 36px;
 }
 .caixa .nome{
   text-transform: uppercase;
   font-weight: bold;
+}
+.email{
+  margin: 0 30px 0 60px;
+}
+.email span{
+  color: #737373;
+}
+.ver-mais{
+  width: 47px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #868686;
+}
+.selecionar{
+  margin-top: 30px;
+}
+.ver-mais:hover svg path{
+  stroke: #166DB2;
+}
+.ver-mais:hover {
+  border: solid 1px #166DB2;
+  background-color: #F2F2F273;
+  cursor: pointer;
+}
+.RA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #737373;
+  width: fit-content;
+  padding-top: 30px;
+}
+.RA svg{
+margin-right: 8px;
+}
+.RA span,
+.RA strong{
+  color: #737373;
 }
