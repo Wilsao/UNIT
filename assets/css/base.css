@@ -87,11 +87,32 @@ label{
   padding: 0;
   margin-right: 8px;
 }
+.d-flex{
+  display: flex;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.container{
+  width: 1366px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.breadcrumbs{
+  padding: 30px 15px;
+}
+.breadcrumbs a:hover{
+  text-decoration: underline;
+}
 .d-block{
   display: block;
 }
 .w-100{
   width: 100%;
+}
+.row{
+  display: flex;
 }
 .mb-3{
   margin-bottom: 24px;

@@ -1,4 +1,4 @@
-header{
+.header-sec{
   height: 114px;
   border-bottom: solid 1px #E0E0E0;
   position: fixed;
@@ -9,17 +9,28 @@ header{
   z-index: 100;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.061);
 }
-header .container{
+.header-sec .container{
+  position: relative;
   display: flex;
   padding: 0 40px;
   align-items: flex-end;
 }
-header nav ul{
+.header-sec .professor-logado{
+  position: absolute;
+  right: 45px;
+  top: 5px;
+  color: #737373;
+  font-weight: normal;
+}
+.professor-logado a:hover{
+  text-decoration: underline;
+}
+.header-sec nav ul{
   list-style-type: none;
   display: flex;
   align-items: flex-end;
 }
-header nav ul li a{
+.header-sec nav ul li a{
   margin: 0 10px;
   padding: 0 20px;
   display: block;
@@ -29,18 +40,20 @@ header nav ul li a{
   text-transform: capitalize;
   border-bottom: solid 6px transparent;
 }
-header nav a:hover{
+.header-sec nav a:hover{
   color:#222121;
   border-bottom: solid 6px #166DB2;
 }
 a.active{
-  border-bottom: solid 6px #166DB2;
+  border-bottom: solid 6px #166DB2 !important;
 }
 .login{
-  line-height: 100% !important;
+  /* line-height: 100% !important; */
   border: solid 1px #E0E0E0;
-  padding: 18px 22px;
-  margin-bottom: 13px;
+  padding: 14px 22px;
+  display: block;
+  height: fit-content;
+  margin-bottom: 15px;
   min-width: 127px;
 }
 .login span{
@@ -53,16 +66,27 @@ a.active{
   display: none;
 }
 footer{
-  min-height: 80px;
   border-top: solid 1px #E0E0E0;
-  background-color: #ffffff;
+  background-color: #135785;
   width: 100%;
+}
+footer *{
+  color: #fff;
 }
 footer .mail{
   margin-right: 8px;
 }
 footer a:hover{
   text-decoration: underline;
+}
+footer .container{
+  padding: 0 10px;
+}
+footer .sociais{
+  width: 180px;
+}
+.footer-foot{
+  min-height: 80px;
 }
 @media (max-width: 992px){
   .mobile-menu{
@@ -115,5 +139,26 @@ footer a:hover{
     border: solid 1px #E0E0E0;
     height: fit-content;
     max-height: 600px;
+  }
+  .login {
+    margin: auto 0;
+  }
+  footer{
+    padding: 15px;
+  }
+  footer .container{
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .hifen{
+    display: none;
+  }
+  footer .direitos{
+    text-align: center;
+    padding-bottom: 15px;
+    flex-direction: column;
+  }
+  footer .direitos strong{
+    padding-top: 10px;
   }
 }
