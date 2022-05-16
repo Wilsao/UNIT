@@ -1,0 +1,55 @@
+.margin-bottom {
+  margin-bottom: 45px;
+}
+
+#intro .container {
+  padding-bottom: 60px;
+
+  border-bottom: 1px solid #E0E0E0;
+}
+
+#intro .input-wrapper {
+  position: relative;
+}
+
+#intro .input-wrapper input {
+  padding: 15px;
+}
+
+#intro .input-wrapper .btn-search {
+  position: absolute;
+  top: 30%;
+  right: 15px;
+
+  background-color: transparent;
+
+  border: none;
+  outline: none;
+}
+
+#intro .btn-category {
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  background-color: transparent;
+
+  border: 1px solid #E0E0E0;
+}
+
+#intro .btn-category.active {
+  background-color: #166DB2;
+
+  color: #ffffff;
+}
+
+#news {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#news .grid-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
