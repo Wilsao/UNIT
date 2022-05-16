@@ -19,6 +19,12 @@
 .font20{
   font-size: 20px;
 }
+.font34{
+  font-size: 34px;
+}
+.branco{
+  color: #ffffff;
+}
 .cinza-clarinho{
   color: #737373;
 }
@@ -33,6 +39,9 @@
 }
 .fw500{
   font-weight: 500;
+}
+.ff-josefin-sans{
+  font-family: 'Josefin Sans', sans-serif;
 }
 .col-1 {
   width: 8.33%;
