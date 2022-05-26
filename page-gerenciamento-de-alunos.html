@@ -1,76 +1,77 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta name="theme-color" content="#166DB2" />
-  <link rel="stylesheet" href="./assets/css/base.css" />
-  <link rel="stylesheet" href="./assets/css/header-footer.css" />
-  <link rel="stylesheet" href="./assets/css/gerenciamento-de-alunos.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>UNIT - Gerenciamento de Alunos</title>
+  <meta name="theme-color" content="#135785" />
+  <link rel="stylesheet" href="style.css" />
+  <title>UNIT - Gerenciamento de alunos</title>
 </head>
 
-<body>
-  <header class="header-sec">
-    <div class="height-100 container justify-content-between">
-      <h4 class="professor-logado">
-        Olá professora Cássia &nbsp;-&nbsp;
-        <a style="min-width: 114px;" href="index.html">
-          <span>
-            Sair
-          </span>
-          <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12.8518 3.86044L17 8.00859L12.8518 12.1567" stroke="#868686" stroke-linecap="square" />
-            <path d="M6.33325 8.00879H16.4073" stroke="#868686" stroke-linecap="square" />
-            <path d="M10.7391 5.87012V1.00055" stroke="#868686" stroke-linecap="square" />
-            <path d="M10.7391 16.3047V10.0438" stroke="#868686" stroke-linecap="square" />
-            <path d="M1 16.3047V1.00034" stroke="#868686" stroke-linecap="square" />
-            <path d="M10.4814 16.3047L1.59256 16.3047" stroke="#868686" stroke-linecap="square" />
-            <path d="M10.5846 1L1.69571 1" stroke="#868686" stroke-linecap="square" />
-          </svg>
-        </a>
-      </h4>
-      <a class="logo-header" href="index.html">
-        <img src="./assets/images/logo-unit.svg" alt="Logo UNIT">
+
+<body class="page-gerenciamento-de-alunos">
+  <header class="header-page">
+    <h5 class="professor-logado text-end">
+      Olá professora Cássia &nbsp;-&nbsp;
+      <a style="min-width: 114px;" href="index.html">
+        <span>
+          Sair
+        </span>
+        <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.8518 3.86044L17 8.00859L12.8518 12.1567" stroke="#868686" stroke-linecap="square" />
+          <path d="M6.33325 8.00879H16.4073" stroke="#868686" stroke-linecap="square" />
+          <path d="M10.7391 5.87012V1.00055" stroke="#868686" stroke-linecap="square" />
+          <path d="M10.7391 16.3047V10.0438" stroke="#868686" stroke-linecap="square" />
+          <path d="M1 16.3047V1.00034" stroke="#868686" stroke-linecap="square" />
+          <path d="M10.4814 16.3047L1.59256 16.3047" stroke="#868686" stroke-linecap="square" />
+          <path d="M10.5846 1L1.69571 1" stroke="#868686" stroke-linecap="square" />
+        </svg>
       </a>
-      <div class="mobile-menu">
-        <span class="top"></span>
-        <span class="mid"></span>
-        <span class="bottom"></span>
-        <nav>
-          <ul>
-            <li>
-              <a class="" href="index.html">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="cursos.html">
-                Cursos
-              </a>
-            </li>
-            <li>
-              <a href="conheca.html">
-                Conheça
-              </a>
-            </li>
-            <li>
-              <a href="contato.html">
-                Contato
-              </a>
-            </li>
-          </ul>
-        </nav>
+    </h5>
+    <div class="header-sec">
+      <div class="height-100 container justify-content-between">
+        <a class="logo-header" href="index.html">
+          <img src="images/logo-unit.svg" alt="Logo UNIT">
+        </a>
+        <div class="mobile-menu">
+          <span class="top"></span>
+          <span class="mid"></span>
+          <span class="bottom"></span>
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="page-cursos.html">
+                  Cursos
+                </a>
+              </li>
+              <li>
+                <a href="page-blog.html">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="page-fale-conosco.html">
+                  Fale conosco
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </header>
-  <div class="container">
-    <nav class="breadcrumbs">
-      <a href="index.html">Home</a> | <a href="">Area do professor</a> | <a href="">Gerenciamento de Alunos</a>
-    </nav>
+
+  <main class="container">
+    <p class="breadcrumbs">
+      <a href="index.html">Home</a> | <a href="">Area do professor</a> | Gerenciamento de Alunos
+    </p>
     <div class="row gerenciamento-de-alunos">
       <div class="col-3">
         <aside class="menu-fixo-alunos">
@@ -336,17 +337,19 @@
         </div>
       </section>
     </div>
-  </div>
-  <footer>
+  </main>
+
+  <footer style="margin-top: 100px;">
     <div class="footer-foot d-flex align-items-center">
       <div class="container d-flex justify-content-between">
+        <img src="images/logo-unit-branca.svg" alt="">
         <span class="direitos d-flex align-items-center">
           Todos os direitos reservados © 2022- UNIT - Universidade de Inovação e Tecnologia<span
             class="hifen">&nbsp;-&nbsp;</span>
           <strong>&nbsp;Criação InFox</strong>
         </span>
         <span class="sociais d-flex align-items-center justify-content-between">
-          <a href="linkedin">
+          <a target="_blank" href="https://linkedin.com/mwlite/in/unit-universidade-b403a623a">
             <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M16.3185 16.7756V16.7748H16.3228V10.7886C16.3228 7.86026 15.6924 5.604 12.2685 5.604C10.6227 5.604 9.51836 6.50727 9.06737 7.36336H9.01976V5.87732H5.77356V16.7748H9.15365V11.379C9.15365 9.9584 9.42314 8.58458 11.1825 8.58458C12.9163 8.58458 12.9418 10.2058 12.9418 11.4704V16.7756H16.3185Z"
@@ -357,14 +360,14 @@
                 fill="white" />
             </svg>
           </a>
-          <a href="facebook">
+          <a target="_blank" href="linkfacebook">
             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M10.0638 6.63033H6.61185V4.32903C6.61185 3.69402 7.12749 3.17838 7.76251 3.17838H8.91318V0.301758H6.61185C4.70534 0.301758 3.15985 1.84722 3.15985 3.75371V6.63033H0.858521V9.50696H3.15985V18.7122H6.61185V9.50696H8.91318L10.0638 6.63033Z"
                 fill="white" />
             </svg>
           </a>
-          <a href="insta">
+          <a target="_blank" href="linkinsta">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M14.6049 0H6.70366C3.06784 0 0.119263 3.04096 0.119263 6.7907V14.9395C0.119263 18.6893 3.06784 21.7302 6.70366 21.7302H14.6049C18.2408 21.7302 21.1893 18.6893 21.1893 14.9395V6.7907C21.1893 3.04096 18.2408 0 14.6049 0ZM19.214 14.9395C19.214 17.5607 17.1465 19.693 14.6049 19.693H6.70366C4.16208 19.693 2.09458 17.5607 2.09458 14.9395V6.7907C2.09458 4.16949 4.16208 2.03721 6.70366 2.03721H14.6049C17.1465 2.03721 19.214 4.16949 19.214 6.7907V14.9395Z"
@@ -377,7 +380,7 @@
                 fill="white" />
             </svg>
           </a>
-          <a href="whats">
+          <a target="_blank" href="https://wa.me/551832291060">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M18.2146 3.15555C16.2333 1.12174 13.5977 0.00127326 10.7925 0C7.99385 0 5.35379 1.11962 3.35964 3.153C1.36178 5.18979 0.260284 7.89631 0.257812 10.7645V10.77C0.258224 12.5059 0.700637 14.2571 1.54097 15.8558L0.286648 21.7302L6.05407 20.3785C7.51477 21.1369 9.14478 21.5367 10.7884 21.5375H10.7925C13.5907 21.5375 16.2308 20.4175 18.2253 18.3841C20.2249 16.3456 21.3268 13.6425 21.328 10.7726C21.3292 7.92304 20.2236 5.2178 18.2146 3.15555ZM10.7925 19.8416H10.7888C9.31284 19.8407 7.85008 19.4592 6.55951 18.7372L6.28681 18.5849L2.45175 19.4838L3.28467 15.5829L3.12402 15.2977C2.3257 13.8785 1.90388 12.3124 1.90388 10.7679C1.90677 5.76827 5.89383 1.69598 10.7921 1.69598C13.1586 1.69682 15.3818 2.642 17.053 4.35708C18.7493 6.09847 19.6828 8.37675 19.6819 10.7722C19.6803 15.7731 15.6924 19.8416 10.7925 19.8416Z"

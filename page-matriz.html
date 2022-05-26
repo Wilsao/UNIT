@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -7,14 +8,15 @@
   <meta name="theme-color" content="#135785" />
   <link rel="stylesheet" href="style.css" />
   <title>UNIT - Universidade de Inovação e Tecnologia</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
-<body class="page-home">
-  <header class="header-home">
-    <div class="menu-topo-home">
+<body class="page-matriz">
+  <header class="header-page">
+    <div class="header-sec">
       <div class="height-100 container justify-content-between">
+        <a class="logo-header" href="index.html">
+          <img src="images/logo-unit.svg" alt="Logo UNIT">
+        </a>
         <div class="mobile-menu">
           <span class="top"></span>
           <span class="mid"></span>
@@ -22,7 +24,7 @@
           <nav>
             <ul>
               <li>
-                <a class="active">
+                <a href="index.html">
                   Home
                 </a>
               </li>
@@ -49,7 +51,7 @@
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M13.6569 10.3431C12.7856 9.47188 11.7484 8.82687 10.6169 8.43625C11.8287 7.60156 12.625 6.20469 12.625 4.625C12.625 2.07469 10.5503 0 8 0C5.44969 0 3.375 2.07469 3.375 4.625C3.375 6.20469 4.17125 7.60156 5.38312 8.43625C4.25156 8.82656 3.21438 9.47188 2.34313 10.3431C0.832188 11.8541 0 13.8631 0 16H1.25C1.25 12.2781 4.27812 9.25 8 9.25C11.7219 9.25 14.75 12.2781 14.75 16H16C16 13.8631 15.1678 11.8541 13.6569 10.3431ZM4.625 4.625C4.625 2.76406 6.13906 1.25 8 1.25C9.86094 1.25 11.375 2.76406 11.375 4.625C11.375 6.48594 9.86094 8 8 8C6.13906 8 4.625 6.48594 4.625 4.625Z"
-                  fill="#fff" />
+                  fill="#868686" />
               </svg>
             </a>
           </nav>
@@ -61,131 +63,100 @@
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M13.6569 10.3431C12.7856 9.47188 11.7484 8.82687 10.6169 8.43625C11.8287 7.60156 12.625 6.20469 12.625 4.625C12.625 2.07469 10.5503 0 8 0C5.44969 0 3.375 2.07469 3.375 4.625C3.375 6.20469 4.17125 7.60156 5.38312 8.43625C4.25156 8.82656 3.21438 9.47188 2.34313 10.3431C0.832188 11.8541 0 13.8631 0 16H1.25C1.25 12.2781 4.27812 9.25 8 9.25C11.7219 9.25 14.75 12.2781 14.75 16H16C16 13.8631 15.1678 11.8541 13.6569 10.3431ZM4.625 4.625C4.625 2.76406 6.13906 1.25 8 1.25C9.86094 1.25 11.375 2.76406 11.375 4.625C11.375 6.48594 9.86094 8 8 8C6.13906 8 4.625 6.48594 4.625 4.625Z"
-              fill="#fff" />
+              fill="#868686" />
           </svg>
         </a>
       </div>
     </div>
-
-    <div class="banner-wrapper">
-      <img class="banner" src="images/banner-home-unit.jpg" alt="Banner unit">
-    </div>
   </header>
-  <main>
-    <section class="slider-section">
-      <img class="bg-faixas" src="images/bg-slide.jpg" alt="Background três tons de azul">
-      <div class="container">
-        <p class="texto1">
-          A UNIT era apenas uma instituição que oferecia ensino fundamental, médio e técnico. Hoje, resolvemos aumentar
-          nossos horizontes com cursos superiores, ampliando a rede de professores para poder dar o máximo de
-          assistência para os alunos e um ensino de qualidade, com os mesmos princípios de antes, com esforço, dedicação
-          e compromisso.
-        </p>
-      </div>
-      <div class="swiper">
-        <div class="swiper-wrapper ">
-          <div class="swiper-slide">
-            <img src="images/slide.jpg" alt="Foto da Faculdade">
-          </div>
-          <div class="swiper-slide">
-            <img src="images/slide-2.jpg" alt="Foto da Faculdade">
-          </div>
-          <div class="swiper-slide">
-            <img src="images/slide-3.jpg" alt="Foto da Faculdade">
-          </div>
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="container">
-        <h2 class="h2-slide font34 branco fw-bold ff-josefin-sans">
-          NOSSA MISSÃO
-        </h2>
-        <p class="texto2">
-          É promover, de forma integrada, a difusão do <strong>conhecimento tecnológico e administrativo</strong>, e a
-          formação de um cidadão imbuído de valores éticos que, com competência técnica, contribua para o
-          desenvolvimento
-          auto sustentado da sociedade.
-        </p>
-      </div>
-    </section>
-    <section class="fundo-preto">
-      <img class="bg-fundo-preto" src="images/home-know-our-courses.png" alt="Notebook">
-      <div class="container">
-        <h2 class="font34 branco ff-josefin-sans">
-          A UNIT DISPONIBILIZA <br>
-          CURSOS DAS ÁREAS <br>
-          DE TI, GESTÃO E ADMINISTRAÇÃO
-        </h2>
-        <a href="page-cursos.html" class="botao-padrao">
-          CONHEÇA NOSSOS CURSOS
-        </a>
-      </div>
-    </section>
-    <section class="objetivos">
-      <div class="container">
-        <h2 class="cards-title font34 ff-josefin-sans">NOSSOS OBJETIVOS</h2>
-        <div class="cards">
-          <div class="card">
-            <img src="images/home-objectives-icon-1.svg" alt="Gráfico conectado no computador">
-            <p class="p2 font20 fw-bold branco">Inclusão do público feminino na área de TI</p>
-            <p class="branco">Como medida de atuação social pensamos em expandir nossos cursos para o público feminino,
-              também tendo em mente o nosso propósito da democratização do ensino.</p>
-          </div>
-          <div class="card">
-            <img src="images/home-objectives-icon-2.svg" alt="Balões de conversa">
-            <p class="p2 font20 fw-bold branco">Aprimorar as soft skills dos alunos</p>
-            <p class="branco">Pensando em destacar nossos aluinos no mercado de trabalho, nós implementamos matérias que
-              estimulam o desenvolvimento de soft skills, que são habilidades essenciais.</p>
-          </div>
-          <div class="card">
-            <img src="images/home-objectives-icon-3.svg" alt="Grafo">
-            <p class="p2 font20 fw-bold branco">Trazer mais parcerias para a UNIT</p>
-            <p class="branco">Com a nossa universidade formando parcerias, podemos abrir portas para nossos alunos
-              conseguirem um emprego, assim os ajudando a crescer no mercado.</p>
-          </div>
-          <div class="card">
-            <img src="images/home-objectives-icon-4.svg" alt="Cérebro com metade tecnológica">
-            <p class="p2 font20 fw-bold branco">Programas para atender pessoas com deficiência</p>
-            <p class="branco">Pensando em dar uma oportunidade para esse público, a universidade deve criou projetos que
-              trabalhem suas dificuldades visando uma capacitação no mercado de trabalho.</p>
-          </div>
-        </div>
-      </div>
 
-    </section>
-    <section>
-      <div class="container">
-        <h2 class="titulo-noticias font34 ff-josefin-sans margin-bottom">
-          NOTÍCIAS
-        </h2>
-        <div class="noticias">
-          <a class="noticia" href="page-artigo.html">
-            <img src="images/blog-news-1.png" alt="Placa de circuitos">
-            <p class="data font14">22.05.2022</p>
-            <p class="font24">Carreiras de tecnologia estão<br> em alta durante a pandemia</p>
-          </a>
-          <a class="noticia" href="page-artigo.html">
-            <img src="images/blog-news-2.png" alt="Horizonte de São Paulo à noite">
-            <p class="data font14">23.05.2022</p>
-            <p class="font24">Nota de pesar ao Bruno Covas,<br> Prefeito de São Paulo</p>
-          </a>
-          <a class="noticia" href="page-artigo.html">
-            <img src="images/blog-news-3.png" alt="Prédio contra o céu">
-            <p class="data font14">24.05.2022</p>
-            <p class="font24">World Summit Awards - Inscrições<br> abertas para edição 2022</p>
-          </a>
-        </div>
-        <div class="botao-blog text-end">
-          <a href="page-blog.html" class="botao-padrao ">VER MAIS</a>
-        </div>
-      </div>
-    </section>
+  <main>
+    <section class="container margin-top">
+
+      <p class="breadcrumbs">
+        <a href="index.html">Home</a> | <a href="page-cursos.html">Cursos</a> | <a
+          href="page-curso-analise-e-desenvolvimento-de-sistemas.html">Análise e Desenvolvimento de
+          Sistemas</a> | Matriz
+        curricular
+      </p>
+
+      <h1 class="ff-josefin-sans font34 fw-bold text-center upper matriz-titulo">
+        Análise e Desenvolvimento de Sistemas
+      </h1>
+
+      <h2 class="ff-josefin-sans font34 fw-bold upper">
+        Matriz Curricular
+      </h2>
+
+      <p class="termos fw-bold font22">
+        1º Termo
+      </p>
+
+      <ul class="matriz-lista">
+        <li class="fw-light400 font18 li-matriz">PADRÕES PARA CONTEÚDOS WEB</li>
+        <li class="fw-light400 font18 li-matriz">PENSAMENTO COMPUTACIONAL</li>
+        <li class="fw-light400 font18 li-matriz">EMPREENDEDORISMO, INOVAÇÃO E CRIATIVIDADE (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">FUNDAMENTOS DE ENGENHARIA DE SOFTWARE (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">INTELIGÊNCIA EMOCIONAL (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">INTERAÇÃO HUMANO-COMPUTADOR (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">PROJETO INTEGRADO I (Presencial/EAD)</li>
+      </ul>
+
+      <p class="termos fw-bold font22">
+        2º Termo
+      </p>
+      <ul class="matriz-lista">
+        <li class="fw-light400 font18 li-matriz">ALGORITMOS E ESTRUTURAS DE DADOS</li>
+        <li class="fw-light400 font18 li-matriz">DESENVOLVIMENTO FRONT-END</li>
+        <li class="fw-light400 font18 li-matriz">ANÁLISE E PROJETO DE SOFTWARE (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">INFORMÁTICA, SOCIEDADE E ÉTICA (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">PROGRAMAÇÃO PARA INTERNET (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">PROJETO INTEGRADO II (Presencial/EAD)</li>
+      </ul>
+
+      <p class="termos fw-bold font22">
+        3º Termo
+      </p>
+      <ul class="matriz-lista">
+        <li class="fw-light400 font18 li-matriz">PROCESSO ÁGIL DE SOFTWARE</li>
+        <li class="fw-light400 font18 li-matriz">PROGRAMAÇÃO FULL STACK I</li>
+        <li class="fw-light400 font18 li-matriz">PROJETO INTEGRADO III</li>
+        <li class="fw-light400 font18 li-matriz">FUNDAMENTOS DE BANCO DE DADOS (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">INFRAESTRUTURA (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">PROGRAMAÇÃO ORIENTADA A OBJETOS (EAD)</li>
+      </ul>
+
+      <p class="termos fw-bold font22">
+        4º Termo
+      </p>
+      <ul class="matriz-lista">
+        <li class="fw-light400 font18 li-matriz">GESTÃO DE PROJETOS</li>
+        <li class="fw-light400 font18 li-matriz">INTELIGÊNCIA ARTIFICIAL E CHATBOT</li>
+        <li class="fw-light400 font18 li-matriz">PROGRAMAÇÃO FULL STACK II</li>
+        <li class="fw-light400 font18 li-matriz">APLICAÇÕES EM BANCO DE DADOS (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">ARQUITETURA DE SOFTWARE (EAD)</li>
+        <li class="fw-light400 font18 li-matriz">QUALIDADE DE SOFTWARE (EAD)</li>
+      </ul>
+
+      <p class="termos fw-bold font22">
+        5º Termo
+      </p>
+      <ul class="matriz-lista">
+        <li class="fw-light400 font18 li-matriz">DATA SCIENCE</li>
+        <li class="fw-light400 font18 li-matriz">DESENVOLVIMENTO MOBILE</li>
+        <li class="fw-light400 font18 li-matriz">APLICAÇÕES EM CLOUD COMPUTING</li>
+        <li class="fw-light400 font18 li-matriz">OPTATIVA</li>
+        <li class="fw-light400 font18 li-matriz">ESTÁGIO SUPERVISIONADO</li>
+        <li class="fw-light400 font18 li-matriz">LÍNGUA BRASILEIRA DE SINAIS - LIBRAS (OPTATIVA)</li>
+      </ul>
+
+      <section />
   </main>
 
   <footer>
-    <form action="" method="POST">
-      <h2 class="ff-josefin-sans">
+
+    <form action="">
+      <h2>
         CONCORRA A ATÉ R$350,00 DE DESCONTO
       </h2>
       <h4>
@@ -193,50 +164,56 @@
       </h4>
       <div class="d-flex">
         <div class="w-50">
-          <input type="text" name="nome-sorteio" placeholder="Digite seu nome" id="nome-sorteio" required>
+          <input type="text" name="" placeholder="Digite seu nome" id="">
         </div>
         <div class="w-50">
-          <input type="tel" placeholder="Digite seu telefone" name="phone-sorteio" id="phone-sorteio" required>
+          <input type="tel" placeholder="Digite seu telefone" name="" id="">
         </div>
       </div>
-      <input type="submit" value="QUERO PARTICIPAR" class="mx-auto botao-padrao">
+      <button class="mx-auto botao-padrao">
+        Quero participar
+      </button>
     </form>
+
     <div class="footer-grande">
-      <h3 class="ff-josefin-sans">NOSSOS CURSOS</h3>
+
+      <h3>NOSSOS CURSOS</h3>
       <div class="d-flex">
         <div class="w-50">
           <div class="linha100"></div>
           <ul>
-            <li class="font20 fw-bold categoria-curso ff-josefin-sans">DA ÁREA DE TI</li>
-            <li><a class="font18" href="page-curso-analise-e-desenvolvimento-de-sistemas.html">Analise e Desenvolvimento
-                de Sistemas</a></li>
-            <li><a class="font18" href="page-curso-ciencia-de-dados.html">Ciência de Dados</a></li>
-            <li><a class="font18" href="page-curso-ciencia-da-computacao.html">Ciência da Computação</a></li>
-            <li><a class="font18" href="page-curso-sistemas-de-informacao.html">Sistemas de Informação</a></li>
-            <li><a class="font18" href="page-curso-desenvolvimento-de-jogos.html">Desenvolvimento de Jogos</a></li>
-            <li><a class="font18" href="page-curso-gestao-da-informacao.html">Gestão da Informação</a></li>
-            <li><a class="font18" href="page-curso-redes-de-computadores.html">Redes de Computadores</a></li>
-            <li><a class="font18" href="page-curso-engenharia-de-software.html">Engenharia de Software</a></li>
-            <li><a class="font18" href="page-curso-cyber-seguranca.html">Cyber Segurança</a></li>
+            <li class="font20 fw-bold categoria-curso">DA ÁREA DE TI</li>
+            <li><a class="font18" href="#">Analise e Desenvolvimento de Sistemas</a></li>
+            <li><a class="font18" href="#">Ciência de Dados </a></li>
+            <li><a class="font18" href="#">Ciência da Computação</a></li>
+            <li><a class="font18" href="#">Sistemas de Informação </a></li>
+            <li><a class="font18" href="#">Desenvolvimento de Jogos</a></li>
+            <li><a class="font18" href="#">Gestão da Informação</a></li>
+            <li><a class="font18" href="#">Redes de Computadores</a></li>
+            <li><a class="font18" href="#">Engenharia de Software</a></li>
+            <li><a class="font18" href="#">Cyber Segurança</a></li>
           </ul>
         </div>
+
         <div class="w-50">
           <div class="linha100"></div>
           <ul>
             <li class="font20 fw-bold categoria-curso">DA ÁREA DE ADMINISTRATIVA</li>
-            <li><a class="font18" href="page-curso-administracao.html">Administração</a></li>
-            <li><a class="font18" href="page-curso-comercio-exterior.html">Comércio Exterior </a></li>
-            <li><a class="font18" href="page-curso-gestao-comercial.html">Gestão Comercial</a></li>
-            <li><a class="font18" href="page-curso-gestao-de-recursos-humanos.html">Gestão de Recursos Humanos</a></li>
-            <li><a class="font18" href="page-curso-gestao-financeira.html">Gestão Financeira </a></li>
-            <li><a class="font18" href="page-curso-gestao-publica.html">Gestão Pública</a></li>
-            <li><a class="font18" href="page-curso-logistica.html">Logística</a></li>
-            <li><a class="font18" href="page-curso-ciencias-contabeis.html">Ciências Contábeis</a></li>
-            <li><a class="font18" href="page-curso-empreendedorismo.html">Empreendedorismo</a></li>
+            <li><a class="font18" href="#">Administração </a></li>
+            <li><a class="font18" href="#">Comércio Exterior </a></li>
+            <li><a class="font18" href="#">Gestão Comercial </a></li>
+            <li><a class="font18" href="#">Gestão de Recursos Humanos </a></li>
+            <li><a class="font18" href="#">Gestão Financeira </a></li>
+            <li><a class="font18" href="#">Gestão Pública </a></li>
+            <li><a class="font18" href="#">Logística</a></li>
+            <li><a class="font18" href="#">Ciências Contábeis </a></li>
+            <li><a class="font18" href="#">Empreendedorismo</a></li>
           </ul>
         </div>
       </div>
+
     </div>
+
     <div class="linha100"></div>
     <div class="footer-foot d-flex align-items-center">
       <div class="container d-flex justify-content-between">
@@ -247,7 +224,7 @@
           <strong>&nbsp;Criação InFox</strong>
         </span>
         <span class="sociais d-flex align-items-center justify-content-between">
-          <a target="_blank" href="https://linkedin.com/mwlite/in/unit-universidade-b403a623a">
+          <a href="linkedin">
             <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M16.3185 16.7756V16.7748H16.3228V10.7886C16.3228 7.86026 15.6924 5.604 12.2685 5.604C10.6227 5.604 9.51836 6.50727 9.06737 7.36336H9.01976V5.87732H5.77356V16.7748H9.15365V11.379C9.15365 9.9584 9.42314 8.58458 11.1825 8.58458C12.9163 8.58458 12.9418 10.2058 12.9418 11.4704V16.7756H16.3185Z"
@@ -258,14 +235,14 @@
                 fill="white" />
             </svg>
           </a>
-          <a target="_blank" href="linkfacebook">
+          <a href="facebook">
             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M10.0638 6.63033H6.61185V4.32903C6.61185 3.69402 7.12749 3.17838 7.76251 3.17838H8.91318V0.301758H6.61185C4.70534 0.301758 3.15985 1.84722 3.15985 3.75371V6.63033H0.858521V9.50696H3.15985V18.7122H6.61185V9.50696H8.91318L10.0638 6.63033Z"
                 fill="white" />
             </svg>
           </a>
-          <a target="_blank" href="linkinsta">
+          <a href="insta">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M14.6049 0H6.70366C3.06784 0 0.119263 3.04096 0.119263 6.7907V14.9395C0.119263 18.6893 3.06784 21.7302 6.70366 21.7302H14.6049C18.2408 21.7302 21.1893 18.6893 21.1893 14.9395V6.7907C21.1893 3.04096 18.2408 0 14.6049 0ZM19.214 14.9395C19.214 17.5607 17.1465 19.693 14.6049 19.693H6.70366C4.16208 19.693 2.09458 17.5607 2.09458 14.9395V6.7907C2.09458 4.16949 4.16208 2.03721 6.70366 2.03721H14.6049C17.1465 2.03721 19.214 4.16949 19.214 6.7907V14.9395Z"
@@ -278,7 +255,7 @@
                 fill="white" />
             </svg>
           </a>
-          <a target="_blank" href="https://wa.me/551832291060">
+          <a href="whats">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M18.2146 3.15555C16.2333 1.12174 13.5977 0.00127326 10.7925 0C7.99385 0 5.35379 1.11962 3.35964 3.153C1.36178 5.18979 0.260284 7.89631 0.257812 10.7645V10.77C0.258224 12.5059 0.700637 14.2571 1.54097 15.8558L0.286648 21.7302L6.05407 20.3785C7.51477 21.1369 9.14478 21.5367 10.7884 21.5375H10.7925C13.5907 21.5375 16.2308 20.4175 18.2253 18.3841C20.2249 16.3456 21.3268 13.6425 21.328 10.7726C21.3292 7.92304 20.2236 5.2178 18.2146 3.15555ZM10.7925 19.8416H10.7888C9.31284 19.8407 7.85008 19.4592 6.55951 18.7372L6.28681 18.5849L2.45175 19.4838L3.28467 15.5829L3.12402 15.2977C2.3257 13.8785 1.90388 12.3124 1.90388 10.7679C1.90677 5.76827 5.89383 1.69598 10.7921 1.69598C13.1586 1.69682 15.3818 2.642 17.053 4.35708C18.7493 6.09847 19.6828 8.37675 19.6819 10.7722C19.6803 15.7731 15.6924 19.8416 10.7925 19.8416Z"
@@ -292,26 +269,6 @@
       </div>
     </div>
   </footer>
-
-  <script>
-
-    const swiper = new Swiper('.swiper', {
-      // Optional parameters
-      direction: 'horizontal',
-      loop: true,
-
-      // If we need pagination
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-    });
-
-  </script>
-
 </body>
 
 </html>

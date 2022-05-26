@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -7,14 +8,15 @@
   <meta name="theme-color" content="#135785" />
   <link rel="stylesheet" href="style.css" />
   <title>UNIT - Universidade de Inovação e Tecnologia</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
-<body class="page-home">
-  <header class="header-home">
-    <div class="menu-topo-home">
+<body class="page-sobre-cursos">
+  <header class="header-page">
+    <div class="header-sec">
       <div class="height-100 container justify-content-between">
+        <a class="logo-header" href="index.html">
+          <img src="images/logo-unit.svg" alt="Logo UNIT">
+        </a>
         <div class="mobile-menu">
           <span class="top"></span>
           <span class="mid"></span>
@@ -22,7 +24,7 @@
           <nav>
             <ul>
               <li>
-                <a class="active">
+                <a href="index.html">
                   Home
                 </a>
               </li>
@@ -49,7 +51,7 @@
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M13.6569 10.3431C12.7856 9.47188 11.7484 8.82687 10.6169 8.43625C11.8287 7.60156 12.625 6.20469 12.625 4.625C12.625 2.07469 10.5503 0 8 0C5.44969 0 3.375 2.07469 3.375 4.625C3.375 6.20469 4.17125 7.60156 5.38312 8.43625C4.25156 8.82656 3.21438 9.47188 2.34313 10.3431C0.832188 11.8541 0 13.8631 0 16H1.25C1.25 12.2781 4.27812 9.25 8 9.25C11.7219 9.25 14.75 12.2781 14.75 16H16C16 13.8631 15.1678 11.8541 13.6569 10.3431ZM4.625 4.625C4.625 2.76406 6.13906 1.25 8 1.25C9.86094 1.25 11.375 2.76406 11.375 4.625C11.375 6.48594 9.86094 8 8 8C6.13906 8 4.625 6.48594 4.625 4.625Z"
-                  fill="#fff" />
+                  fill="#868686" />
               </svg>
             </a>
           </nav>
@@ -61,126 +63,107 @@
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M13.6569 10.3431C12.7856 9.47188 11.7484 8.82687 10.6169 8.43625C11.8287 7.60156 12.625 6.20469 12.625 4.625C12.625 2.07469 10.5503 0 8 0C5.44969 0 3.375 2.07469 3.375 4.625C3.375 6.20469 4.17125 7.60156 5.38312 8.43625C4.25156 8.82656 3.21438 9.47188 2.34313 10.3431C0.832188 11.8541 0 13.8631 0 16H1.25C1.25 12.2781 4.27812 9.25 8 9.25C11.7219 9.25 14.75 12.2781 14.75 16H16C16 13.8631 15.1678 11.8541 13.6569 10.3431ZM4.625 4.625C4.625 2.76406 6.13906 1.25 8 1.25C9.86094 1.25 11.375 2.76406 11.375 4.625C11.375 6.48594 9.86094 8 8 8C6.13906 8 4.625 6.48594 4.625 4.625Z"
-              fill="#fff" />
+              fill="#868686" />
           </svg>
         </a>
       </div>
     </div>
-
-    <div class="banner-wrapper">
-      <img class="banner" src="images/banner-home-unit.jpg" alt="Banner unit">
-    </div>
   </header>
+
   <main>
-    <section class="slider-section">
-      <img class="bg-faixas" src="images/bg-slide.jpg" alt="Background três tons de azul">
-      <div class="container">
-        <p class="texto1">
-          A UNIT era apenas uma instituição que oferecia ensino fundamental, médio e técnico. Hoje, resolvemos aumentar
-          nossos horizontes com cursos superiores, ampliando a rede de professores para poder dar o máximo de
-          assistência para os alunos e um ensino de qualidade, com os mesmos princípios de antes, com esforço, dedicação
-          e compromisso.
-        </p>
-      </div>
-      <div class="swiper">
-        <div class="swiper-wrapper ">
-          <div class="swiper-slide">
-            <img src="images/slide.jpg" alt="Foto da Faculdade">
-          </div>
-          <div class="swiper-slide">
-            <img src="images/slide-2.jpg" alt="Foto da Faculdade">
-          </div>
-          <div class="swiper-slide">
-            <img src="images/slide-3.jpg" alt="Foto da Faculdade">
-          </div>
+    <section class="container">
+      <p class="breadcrumbs">
+        <a href="index.html">Home</a> | <a href="page-cursos.html">Cursos</a> | Análise e Desenvolvimento de Sistemas
+      </p>
+      <h1 class="upper fw-bold font34 ff-josefin-sans text-center">
+        Análise e desenvolvimento de sistemas
+      </h1>
+      <div class="d-flex">
+        <div>
+          <h2 class="font25 upper ff-josefin-sans">
+            Sobre o curso
+          </h2>
+          <p class="fw-light font20 text-justify texto-sobre-curso">
+            No curso de Tecnologia em Análise e Desenvolvimento de Sistemas da Unoeste, você encontra como diferencial
+            uma
+            organização moderna que te envolve em atividades práticas de situações simuladas e reais desde as primeiras
+            aulas. Você terá um ambiente mais próximo da sua futura atuação profissional, além do suporte do corpo
+            docente
+            com vasta experiência.
+          </p>
+          <p class="fw-light font20 text-justify texto-sobre-curso">
+            Nos três primeiros semestres do curso de Análise e Desenvolvimento de Sistemas, você terá o Projeto
+            Integrador
+            de Disciplinas (PID). Nesta proposta, atuará em uma organização fictícia, com alto grau de realismo. E as
+            soluções dos diversos problemas criados dependem da aplicação das habilidades e competências que serão
+            desenvolvidas nas disciplinas envolvidas.
+          </p>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="container">
-        <h2 class="h2-slide font34 branco fw-bold ff-josefin-sans">
-          NOSSA MISSÃO
-        </h2>
-        <p class="texto2">
-          É promover, de forma integrada, a difusão do <strong>conhecimento tecnológico e administrativo</strong>, e a
-          formação de um cidadão imbuído de valores éticos que, com competência técnica, contribua para o
-          desenvolvimento
-          auto sustentado da sociedade.
-        </p>
+
+        <div class="fundo-cinza-sobre-cursos">
+          <a href="page-matriz.html"
+            class="botao-ver-matriz efeito-apertar-botao d-flex justify-content-center align-items-center">
+            <div class="upper font14 fw600 branco">
+              ver matriz curricular
+            </div>
+          </a>
+          <!-- <h3 class="font24 fw-light400 texto-azul ff-josefin-sans"><img src="images/relogio.svg" alt=""> Carga
+            Horária total</h3>
+          <p class="texto-quadro-cinza font16 fw-light texto-azul">1000 horas</p> -->
+          <h3 class="font24 fw-light400 texto-azul ff-josefin-sans"><img src="images/estrela.svg" alt="">
+            Competencias gerais</h3>
+          <p class="texto-quadro-cinza font16 fw-light texto-azul">Em Análise e Desenvolvimento de Sistemas, você
+            aprenderá a criar aplicações web e mobile, usando as tecnologias mais recentes. Estudará como gerenciar
+            projetos usando as melhores práticas e metodologias e construir bancos de dados padrão SQL e NoSQL. Como
+            aluno, também trabalhará com os principais frameworks de desenvolvimento de software, utilizará cloud
+            computing e desenvolverá habilidades de empreendedorismo.</p>
+        </div>
+
       </div>
     </section>
-    <section class="fundo-preto">
-      <img class="bg-fundo-preto" src="images/home-know-our-courses.png" alt="Notebook">
-      <div class="container">
-        <h2 class="font34 branco ff-josefin-sans">
-          A UNIT DISPONIBILIZA <br>
-          CURSOS DAS ÁREAS <br>
-          DE TI, GESTÃO E ADMINISTRAÇÃO
-        </h2>
-        <a href="page-cursos.html" class="botao-padrao">
-          CONHEÇA NOSSOS CURSOS
+
+
+    <!-- <section class="container">
+      <div class="fundo-azul-sobre-cursos">
+
+        <h3 class="upper branco size25 fw700 titulo-outros-cursos">
+          outros cursos da área de tecnologia
+        </h3>
+        <a href="#" class="branco font18 fw-light400 outros-cursos">
+          <img src="images/quadro-outros-cursos.svg" alt=""> Ciência de Dados
+        </a>
+
+        <a href="#" class="branco font18 fw-light400 outros-cursos">
+          <img src="images/quadro-outros-cursos.svg" alt=""> Ciência da Computação
+        </a>
+
+        <a href="#" class="branco font18 fw-light400 outros-cursos">
+          <img src="images/quadro-outros-cursos.svg" alt=""> Sistemas de Informação
+        </a>
+
+        <a href="#" class="branco font18 fw-light400 outros-cursos">
+          <img src="images/quadro-outros-cursos.svg" alt=""> Desenvolvimento de Jogos
+        </a>
+
+        <a href="#" class="branco font18 fw-light400 outros-cursos">
+          <img src="images/quadro-outros-cursos.svg" alt=""> Gestão da Informação
+        </a>
+
+        <a href="#" class="branco font18 fw-light400 outros-cursos">
+          <img src="images/quadro-outros-cursos.svg" alt=""> Redes de Computadores
+        </a>
+
+        <a href="#" class="branco font18 fw-light400 outros-cursos">
+          <img src="images/quadro-outros-cursos.svg" alt=""> Engenharia de Software
+        </a>
+
+        <a href="#" class="branco font18 fw-light400 outros-cursos">
+          <img src="images/quadro-outros-cursos.svg" alt=""> Cyber Segurança
         </a>
       </div>
-    </section>
-    <section class="objetivos">
-      <div class="container">
-        <h2 class="cards-title font34 ff-josefin-sans">NOSSOS OBJETIVOS</h2>
-        <div class="cards">
-          <div class="card">
-            <img src="images/home-objectives-icon-1.svg" alt="Gráfico conectado no computador">
-            <p class="p2 font20 fw-bold branco">Inclusão do público feminino na área de TI</p>
-            <p class="branco">Como medida de atuação social pensamos em expandir nossos cursos para o público feminino,
-              também tendo em mente o nosso propósito da democratização do ensino.</p>
-          </div>
-          <div class="card">
-            <img src="images/home-objectives-icon-2.svg" alt="Balões de conversa">
-            <p class="p2 font20 fw-bold branco">Aprimorar as soft skills dos alunos</p>
-            <p class="branco">Pensando em destacar nossos aluinos no mercado de trabalho, nós implementamos matérias que
-              estimulam o desenvolvimento de soft skills, que são habilidades essenciais.</p>
-          </div>
-          <div class="card">
-            <img src="images/home-objectives-icon-3.svg" alt="Grafo">
-            <p class="p2 font20 fw-bold branco">Trazer mais parcerias para a UNIT</p>
-            <p class="branco">Com a nossa universidade formando parcerias, podemos abrir portas para nossos alunos
-              conseguirem um emprego, assim os ajudando a crescer no mercado.</p>
-          </div>
-          <div class="card">
-            <img src="images/home-objectives-icon-4.svg" alt="Cérebro com metade tecnológica">
-            <p class="p2 font20 fw-bold branco">Programas para atender pessoas com deficiência</p>
-            <p class="branco">Pensando em dar uma oportunidade para esse público, a universidade deve criou projetos que
-              trabalhem suas dificuldades visando uma capacitação no mercado de trabalho.</p>
-          </div>
-        </div>
-      </div>
 
-    </section>
-    <section>
-      <div class="container">
-        <h2 class="titulo-noticias font34 ff-josefin-sans margin-bottom">
-          NOTÍCIAS
-        </h2>
-        <div class="noticias">
-          <a class="noticia" href="page-artigo.html">
-            <img src="images/blog-news-1.png" alt="Placa de circuitos">
-            <p class="data font14">22.05.2022</p>
-            <p class="font24">Carreiras de tecnologia estão<br> em alta durante a pandemia</p>
-          </a>
-          <a class="noticia" href="page-artigo.html">
-            <img src="images/blog-news-2.png" alt="Horizonte de São Paulo à noite">
-            <p class="data font14">23.05.2022</p>
-            <p class="font24">Nota de pesar ao Bruno Covas,<br> Prefeito de São Paulo</p>
-          </a>
-          <a class="noticia" href="page-artigo.html">
-            <img src="images/blog-news-3.png" alt="Prédio contra o céu">
-            <p class="data font14">24.05.2022</p>
-            <p class="font24">World Summit Awards - Inscrições<br> abertas para edição 2022</p>
-          </a>
-        </div>
-        <div class="botao-blog text-end">
-          <a href="page-blog.html" class="botao-padrao ">VER MAIS</a>
-        </div>
-      </div>
-    </section>
+    </section> -->
+
   </main>
 
   <footer>
@@ -292,26 +275,6 @@
       </div>
     </div>
   </footer>
-
-  <script>
-
-    const swiper = new Swiper('.swiper', {
-      // Optional parameters
-      direction: 'horizontal',
-      loop: true,
-
-      // If we need pagination
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-    });
-
-  </script>
-
 </body>
 
 </html>
